@@ -55,8 +55,8 @@ on:
         type: boolean
       DOCKERMAN:
         description: 'Build luci-app-dockerman'
-        required: true
-        default: true
+        required: false
+        default: false
         type: boolean
       OPENCLASH:
         description: 'OPENCLASH'
